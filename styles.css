@@ -1,0 +1,59 @@
+
+
+
+*
+{ 
+  margin: 0;
+  padding: 0;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    display:flex;
+    justify-content:center;
+    align-items: space-evenly;
+    min-height: 100vh;
+    background:black  
+}
+
+
+h3 {
+    color:Red;
+    font-size: 50px;
+}
+
+.container {
+    position: relative;
+     display:flex;
+    justify-content:space-evenly;
+    align-items: space-evenly;
+         
+}
+.card {
+    padding-bottom:10px;
+
+}
+
+
+.container .card {
+    position: relative;
+    background: burlywood;
+    margin:10px;
+    padding: 15px;
+    display:flex;
+}
+
+.contaner .card .ImgBox {
+   max-width: 200px;
+    flex: 0 0 200px;
+}
+
+.container .card .ImgBox img {
+    max-width: 100%;
+}
+
+.container .card .content {
+    margin-left: 20px;
+
+}
